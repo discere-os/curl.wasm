@@ -1,10 +1,16 @@
-<!--
-Copyright (C) Daniel Stenberg, <daniel@haxx.se>, et al.
+# @discere-os/curl.wasm
 
-SPDX-License-Identifier: curl
--->
+WebAssembly port of curl - Command-line tool and library for transferring data with URLs, featuring HTTP/HTTPS, FTP, and comprehensive protocol support with SIMD optimizations.
 
-# [![curl logo](https://curl.se/logo/curl-logo.svg)](https://curl.se/)
+[![CI/CD](https://github.com/discere-os/discere-nucleus/actions/workflows/curl-wasm-ci.yml/badge.svg)](https://github.com/discere-os/discere-nucleus/actions)
+[![JSR](https://jsr.io/badges/@discere-os/curl.wasm)](https://jsr.io/@discere-os/curl.wasm)
+[![npm version](https://badge.fury.io/js/@discere-os%2Fcurl.wasm.svg)](https://badge.fury.io/js/@discere-os%2Fcurl.wasm)
+[![License](https://img.shields.io/badge/License-curl-blue.svg)](COPYING)
+[![Status](https://img.shields.io/badge/status-alpha-orange.svg)](https://github.com/discere-os/discere-nucleus)
+
+---
+
+*Original curl documentation follows below*
 
 curl is a command-line tool for transferring data specified with URL syntax.
 Learn how to use curl by reading [the
@@ -66,3 +72,20 @@ Thank you to all our backers :pray: [Become a backer](https://opencollective.com
 ## Sponsors
 
 Support this project by becoming a [sponsor](https://curl.se/sponsors.html).
+
+## 💖 Support This Work
+
+This WebAssembly port is part of a larger effort to bring professional desktop applications to browsers with native performance.
+
+**👨‍💻 About the Maintainer**: [Isaac Johnston (@superstructor)](https://github.com/superstructor) - Building foundational browser-native computing infrastructure through systematic C/C++ to WebAssembly porting.
+
+**📊 Impact**: 70+ open source WASM libraries enabling professional applications like Blender, GIMP, and scientific computing tools to run natively in browsers.
+
+**🚀 Your Support Enables**:
+- Continued maintenance and updates
+- Performance optimizations
+- New library ports and integrations
+- Documentation and tutorials
+- Cross-browser compatibility testing
+
+**[💖 Sponsor this work](https://github.com/sponsors/superstructor)** to help build the future of browser-native computing.
